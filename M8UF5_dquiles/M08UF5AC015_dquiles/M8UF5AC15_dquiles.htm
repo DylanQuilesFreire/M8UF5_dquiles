@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulari d’enviament</title>
+    <script type="text/javascript">
+        function validar(){
+        var psswd=document.getElementById("psswd").value;
+        var confpsswd=document.getElementById("confpsswd").value;
+        if(psswd==confpsswd){
+        return true;
+        }
+        else{
+        alert("No coincideix");
+        return false;
+        }
+        }
+        </script>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <form onsubmit="return validar();" method="get" action="mailto:dylan.quiles@inslapineda.cat">
+        <table border="" align="center" style="background-color: #EFEFEF;" >
+            <tr >
+                <td>
+                    <legend style="background-color: #306090; color: white;"><strong>Enviar missatge</strong><img alt="logo" align="right" src="img/gb_reload_s.gif"></legend>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Usuari"><strong>Usuari:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input required maxlength="8" size="50" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Contrasenya"><strong>Contrasenya:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="psswd" required size="50" id="psswd" type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="C.Contrasenya"><strong>Confirmació:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="confpsswd"  required size="50" id="c.psswd" type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nom"><strong>Nom:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input maxlength="50" size="50" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="E-Mail"><strong>E-Mail:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="email" required size="50" type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Arxiu"><strong>Arxiu:</strong></label>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Imatge"><strong>Imatge:</strong></label>
+                    <input type="file" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="KBytes"><small><small>El tamany de l'arxiu i la imatge no pot exedir els 4 KBytes</small></small></label>
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td><strong>Quins jocs t'interessen?</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <label for="joc">Buscamines</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="joc">Snake</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="joc">Tetris</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="joc">Pac-Man</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <td align="center">
+                    <label for="RResposta"><strong>Requereix resposta:</strong></label>
+                    <label for="Si">Si</label>
+                    <input type="radio" name="Si/no" value="Si">
+                    <label for="No">No</label>
+                    <input type="radio" name="Si/no" value="No">
+                </td>
+            </tr>
+            <tr>
+                <td  align="center">
+                    <label for="Missatge"><strong>Missatge</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <textarea rows="5" cols="45"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="enviar">
+                    &ensp;
+                    <input onclick="validar" type="reset" value="borrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
