@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulari d’enviament</title>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <form method="get" action="mailto:dylan.quiles@inslapineda.cat">
+        <table border="" align="center" style="background-color: #EFEFEF;" >
+            <tr >
+                <td>
+                    <legend style="background-color: #306090; color: white;"><strong>Enviar missatge</strong><img alt="logo" align="right" src="../img/gb_reload_s.gif"></legend>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nom"><strong>Nom:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input maxlength="50" size="50" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="E-Mail"><strong>E-Mail:</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="email" required size="50" type="email">
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td><strong>Quins tipus de llocs t'interessen?</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <label for="lloc">Platjes</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="lloc">Muntanya</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="lloc">Nevats</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="lloc">Boscós</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <td align="center">
+                    <label for="RResposta"><strong>Requereix resposta:</strong></label>
+                    <label for="Si">Si</label>
+                    <input type="radio" name="Si/no" value="Si">
+                    <label for="No">No</label>
+                    <input type="radio" name="Si/no" value="No">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="N.P"><strong>N.Persones</strong></label>
+                    <input type="number" required>
+                </td>
+            </tr>
+            <tr>
+                <td  align="center">
+                    <label for="Missatge"><strong>Missatge</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <textarea rows="5" cols="45"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="enviar">
+                    &ensp;
+                    <input onclick="validar" type="reset" value="borrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>

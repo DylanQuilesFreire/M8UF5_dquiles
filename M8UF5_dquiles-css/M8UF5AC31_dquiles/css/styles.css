@@ -1,0 +1,163 @@
+body{
+    text-align: center;
+}
+h1{
+    margin-bottom: 5px;
+}
+nav{
+    background-color: #333;
+}
+#ViE{
+    color: rgb(53, 106, 160);
+    font-family: 'Lucida Sans Regular';
+    font-size: large;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 251px;
+}
+li {
+    float: left;
+    border: 1px solid black;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#Gran{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+.columna {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+div > p{
+    font-style: oblique;
+}
+#just{
+    text-align: center;
+    font-size: small;
+    width: 350px;
+    margin: auto;
+}
+.trans:hover{
+    opacity: 70%;
+}
+.neg{
+    font-weight: bold;
+}
+button{
+    background-color: #333;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
+footer{
+    border-top: solid 1px #333;
+}
+.ft{
+    margin: 15px;
+    display: inline-block;
+    font-size: small;
+    text-decoration: none;
+}
+button:hover{
+    opacity: 70%;
+}
+.ft:visited{
+    color: black;
+}
+.ft:hover{
+    text-decoration: underline;
+}
+/*Mondrian*/
+#monbody{
+    background-color: black;
+}
+#mondrian{
+    height: 280px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: -200px;
+}
+.item1{
+    grid-area:im1;
+    background-image: url(../img/Paraiso1.jfif);
+    }
+.item2{
+    grid-area:im2;
+    background-image: url(../img/Paraiso2.jfif);
+    }
+.item3{
+    grid-area:im3;
+    background-image: url(../img/Paraiso3.jfif);
+}
+.item4{
+    grid-area:im4;
+    background-image: url(../img/Paraiso4.jfif);
+}
+.item5{
+    grid-area:im5;
+    background-image: url(../img/Paraiso5.jfif);
+}
+.item6{
+    grid-area:im6;
+    background-image: url(../img/Paraiso6.jfif);
+}
+.item7{
+    grid-area:im7;
+    background-image: url(../img/Paraiso7.jfif);
+}
+.item8{
+    grid-area:im8;
+    background-image: url(../img/Paraiso8.jfif);
+}
+.item9{
+    grid-area:im9;
+    background-image: url(../img/Paraiso9.jfif);
+}
+.item10{
+    grid-area:im10;
+    background-image: url(../img/Paraiso10.jfif);
+}
+.item11{
+    grid-area:im11;
+    background-image: url(../img/Paraiso11.jfif);
+}
+.item12{
+    grid-area:im12;
+    background-image: url(../img/Paraiso12.jfif);
+}
+#mondrian {
+    display: grid;
+    grid-template-areas:
+        'im1 im1 im2 im2'
+        'im3 im4 im5 im5'
+        'im3 im6 im7 im8'
+        'im9 im10 im11 im12';
+}
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}

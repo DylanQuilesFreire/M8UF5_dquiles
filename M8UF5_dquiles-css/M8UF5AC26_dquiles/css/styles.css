@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+    color: white;
+}
+/*Mondrian1*/
+#mondrian{
+    height: 280px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -200px;
+}
+/*Mesures*/
+#a, #b, #e{
+    height: 70px;
+    width: 200px;
+}
+#d, #f, #g, #h, #i, #j, #k, #l{
+    height: 70px;
+    width: 100px;
+}
+#c{
+    height: 140px;
+    width: 100px;
+}
+/*Posicio*/
+#a, #c, #d, #f, #g, #i, #j, #k{
+    float: left;
+}
+#b, #e, #h, #l{
+    float: right;
+}
+/*Colors*/
+#a, #k{
+    background-color: red;
+}
+#b{
+    background-color: blue;
+}
+#c, #g{
+    background-color: yellow;
+}
+#d{
+    background-color:  #4e0034 ;
+}
+#e{
+    background-color: darkblue;
+}
+#f{
+    background-color:  fuchsia;
+}
+#h{
+    background-color: white;
+}
+#i{
+    background-color:  #d7bde2;
+}
+#j{
+    background-color:  #5d4037;
+}
+#l{
+    background-color: maroon;
+}
+/*Mondrian2*/
+.col{
+    float: inline-start;
+}
+.col  div{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+/*Columna1*/
+#blanco1{
+    background-color: white;
+    width: 100px;
+    height: 200px;
+}
+#blanco2{
+    background-color: white;
+    width: 100px;
+    height: 500px; 
+}
+.blanco3{
+    background-color: white;
+    width: 100px;
+    height: 75px;
+}
+/*Columna2*/
+#amarillo1{
+    background-color: gold;
+    width: 200px;
+    height: 880px;
+}
+/*Columna3*/
+#azul1{
+    background-color: royalblue;
+    width: 200px;
+    height: 275px;
+}
+#amarillo2{
+    background-color: gold;
+    width: 200px;
+    height: 595px;
+}
+/*Columna4*/
+#rojo1{
+    background-color: red;
+    width: 200px;
+    height: 615px;;
+}
+.rojo2{
+    background-color: red;
+    width: 95px;
+    height: 75px;
+}
+#azul2{
+    background-color: royalblue;
+    width: 95px;
+    height: 170px;
+}
+#rojo3{
+    background-color: red;
+    width: 95px;
+    height: 170px;
+}
+/*Columna5*/
+#amarillo3{
+    background-color: gold;
+    width: 95px;
+    height: 170px;
+}
+#amarillo4{
+    background-color: gold;
+    width: 95px;
+    height: 75px;
+}
+#rojo4{
+    background-color: red;
+    width: 200px;
+    height: 360px;
+}
+.amarillo5{
+    background-color: gold;
+    width: 95px;
+    height: 255px;
+}
+/*Direcion*/
+.izquierda{
+    float: left;
+}
+.derecha{
+    float: right;
+}

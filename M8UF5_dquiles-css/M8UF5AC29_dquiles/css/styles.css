@@ -1,0 +1,67 @@
+.item0 { grid-area: Nada; }
+.item1 { grid-area: Hora; }
+.item2 { grid-area: Lunes; }
+.item3 { grid-area: Martes; }
+.item4 { grid-area: Miercoles; }
+.item5 { grid-area: Jueves; }
+.item6 { grid-area: Viernes; }
+.item7 { grid-area: M7; }
+.item8 { grid-area: M72; }
+.item9 { grid-area: Ingles;}
+.item10 { grid-area: Ingles2;}
+.item11 { grid-area: M8; }
+.item12 { grid-area: M82; }
+.item13 { grid-area: M83; }
+.item14 { grid-area: M84; }
+.item15 { grid-area: M85; }
+.item16 { grid-area: M86; }
+.item17 { grid-area: M6; }
+.item18 { grid-area: M62; }
+.item19 { grid-area: patio;}
+.item20 { grid-area: Tut;}
+.item21 { grid-area: Nada2;}
+.item22 { grid-area: Nada3;}
+.item23 { grid-area: Nada4;}
+.item24 { grid-area: Hora2;}
+.item25 { grid-area: EIE;}
+.item26 { grid-area: Hora3;}
+.item27 { grid-area: Hora4;}
+.item28 { grid-area: Hora5;}
+.item29 { grid-area: Hora6;}
+.item30 { grid-area: Hora7;}
+.m8{
+  background-image: url("../img/m8grid.svg");
+}
+.m6{
+  background-image: url("../img/m6grid.png");
+}
+.m7{
+  background-image: url("../img/m7grid.png");
+}
+.Ang{
+  background-image: url("../img/anglesgrid.jpeg");
+}
+.eie{
+  background-image: url("../img/eiegrid.jpeg");
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Hora Lunes Martes Miercoles Jueves Viernes'
+    'Hora2 M7 M6 Nada M72 Ingles'
+    'Hora3 M7 M6 M82 M72 Ingles'
+    'Hora4 M7 M8 M82 M72 M83'
+    'patio patio patio patio patio patio'
+    'Hora5 M62 M84 Tut EIE M85'
+    'Hora6 M62 Nada2 Ingles2 EIE Nada3'
+    'Hora7 M62 Nada2 Nada4 M86 Nada3';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}

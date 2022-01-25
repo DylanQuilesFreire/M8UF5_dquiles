@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/IMAGEN.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 150%;
+}
+table{
+    width: 70%;
+}
+*{
+    font-family: monospace;
+}
+.p1{
+    background-color:  #fdedec;
+}
+.p2{
+    background-color:  #fadbd8;
+}
+.p3{
+    background-color:  #f5b7b1;
+}
+.p4{
+    background-color:  #f1948a;
+}
+.p5{
+    background-color:  #ec7063;
+}
+.p6{
+    background-color:  #e74c3c;
+}
+.p7{
+    background-color:  #cb4335;
+}
+.p8{
+    background-color:  #b03a2e;
+}
+.p9{
+    background-color:  #943126;
+}
+.p10{
+    background-color:  #78281f;
+}
+.Sr{
+    text-decoration: underline;
+}
+.R{
+    text-decoration: line-through;
+}
+.N{
+    font-weight: bold;
+}
+p:hover{
+    background-color: #00f1ff;
+}

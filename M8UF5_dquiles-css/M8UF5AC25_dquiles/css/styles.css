@@ -1,0 +1,35 @@
+*{
+    margin-bottom: 3px;
+}
+header{
+    background-color: red;
+    color: red;
+    height: 155px;
+}
+aside{
+    background-color:  greenyellow;
+    color: greenyellow;
+    float: left;
+    height: 555px;
+    width: 20%;
+}
+#content nav{
+    background-color:  lightskyblue;
+    margin-bottom: 9px;
+    color: lightskyblue;
+    height: 125px;
+}
+#content article{
+    background-color:  yellow;
+    color: yellow;
+    height: 420px;
+}
+footer{
+    background-color:  purple;
+    color: purple;
+    height: 155px;
+}
+div{
+    margin-left: 21%;
+}
+

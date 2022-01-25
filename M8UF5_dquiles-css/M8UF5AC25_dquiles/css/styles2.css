@@ -1,0 +1,46 @@
+* {
+    margin-bottom: 3px;
+    border: 3px solid transparent;
+}
+header{
+    border-color:  red;
+    color: red;
+    height: 155px;
+}
+aside{
+    border-color:  greenyellow;
+    color: greenyellow;
+    width: 20%;
+}
+nav{
+    border-color: lightskyblue;
+    margin-bottom: 9px;
+    color: lightskyblue;
+    height: 125px;
+    display: block;
+}
+article{
+    border-color: yellow;
+    color: yellow;
+    height: 420px;
+    display: block;
+}
+#content {
+        display: block;
+        flex: 1;
+}
+footer{
+    border-color: purple;
+    color: purple;
+    height: 155px;
+}
+#principal{
+    height: 545px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+/*div{
+    margin-left: 21%;
+}*/
+
